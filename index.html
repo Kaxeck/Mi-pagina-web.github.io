@@ -16,8 +16,9 @@
         </div>
         <nav style="float: left;"><!--Barra de navegacion-->
             <ul style="list-style: none; display: flex; font-family: Arial, sans-serif; gap: 30px;"><!--Lista de categorias-->
-                <!--Float permite que los elementos se alineen horizontalmente de izquierda a derecha-->
+                <!--Display flex permite que los elementos de la lista se alineen horizontalmente-->
                 <!--List-style none elimina los puntos de la lista-->
+                <!--Font family establece la fuente de los elementos de la lista-->
                 <!--Gap 30px agrega un espacio entre los elementos de la lista-->
                 <li> <a href="" style="text-decoration: none; color: #F2E8D5"><Strong>Mujer</Strong></a> </li>
                 <li> <a href="" style="text-decoration: none; color: #F2E8D5"><strong>Hombre</strong></a> </li>
@@ -31,16 +32,20 @@
         </div>
     </header>
 
-    <main><!--Contenido principal de la pagina-->
-        <Section><!--Seccion principal de la pagina-->
-            <h1>Nueva Colección otoño 2025</h1>
+    <main style="font-family: Arial, sans-serif;"><!--Contenido principal de la pagina-->
+        <Section style="text-align: center; margin-bottom: 100px;"><!--Seccion principal de la pagina-->
+            <!--Margin bottom 100px agrega un espacio debajo de la seccion-->
+            <!--Text-align center centra el contenido dentro de la seccion-->
+            <h1 style="font-size: 40px;"> Nueva Colección otoño 2025</h1>
+            <!--Font-size 40px establece el tamaño de la fuente del titulo-->
             <p>Descubre las últimas tendencias en moda para este otoño. Ropa fresca, colores vibrantes y estilos únicos que te encantarán</p>
             <img src="https://i.postimg.cc/yx7d8q8f/Gemini-Generated-Image-ylgoncylgoncylgo.png" alt="Imagen de la nueva colección otoño 2025" width="1200">
         </Section>
 
-        <section id="promociones"><!--Seccion de promociones-->
-            <h2>Promociones</h2>
-            <ul><!--Lista de promociones-->
+        <section id="promociones" style="margin-bottom: 100px;"><!--Seccion de promociones-->
+            <h2 style="font-size: 40px;">Promociones</h2>
+            <ul style="display: flex; list-style: none;"><!--Lista de promociones-->
+                <!--List style none elimina los puntos de la lista-->
                 <li> <!--Promoción 50% de descuento en la segunda prenda-->
                     <img src="https://i.ibb.co/kgBQHPdt/Gemini-Generated-Image-soqtypsoqtypsoqt.png" alt="Promoción 50% de descuento en la segunda prenda" width="600">
                 </li>
@@ -50,35 +55,20 @@
             </ul>
         </section>
 
-        <section><!--Seccion de presentacion temporada otoño 2025-->
-            <h2>Temporada Otoño 2025</h2>
+        <section style="margin-bottom: 100px;"><!--Seccion de presentacion temporada otoño 2025-->
+            <h2 style="font-size: 40px;">Temporada Otoño 2025</h2>
             <p>Prepárate para el frío con nuestra colección de otoño. Abrigos, suéteres y accesorios que te mantendrán cálido y a la moda</p>
             <img src="https://i.postimg.cc/pXhKmfGb/Gemini-Generated-Image-gyegfagyegfagyeg.png" alt="Imagen de la colección otoño 2025" width="1200">
         </section>
 
-        <section><!--Seccion del catalogo de productos-->
-            <H2>Catalogo</H2>
-                <ul><!--Lista de productos-->
+        <section style="margin-bottom: 100px;"><!--Seccion del catalogo de productos-->
+            <h2 style="font-size: 40px;">Catalogo</h2>
+            <h2 style="font-size: 30px; text-align: center;">Mujer</h2>
+            <ul style="list-style: none;">
+                <div style="display: flex; gap: 30px; margin-top: 50px;">
+                    <!--Margin top 50px agrega un espacio arriba del contenedor-->
                     <li>
-                        <img src="https://i.postimg.cc/0NdBLR75/Gemini-Generated-Image-i43m1vi43m1vi43m.png" alt="Sueter rayado">
-                        <div>
-                        <h3>Sueter rayado</h3>
-                        <p>Sueter cómodo y cálido, ideal para el otoño</p>
-                        <p><strong>$80</strong></p>
-                        <button>Agregar al carrito</button>
-                        </div>
-                    </img>
-                    <li>
-                        <img src="https://i.postimg.cc/PJ37qWqp/Gemini-Generated-Image-4r4enm4r4enm4r4e.png" alt="Hoddy gris">
-                        <div>
-                        <h3>Hoddy gris</h3>
-                        <p>Hoddy cómodo y moderno para tus actividades diarias</p>
-                        <p><strong>$70</strong></p>
-                        <button>Agregar al carrito</button>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="https://i.postimg.cc/65b2fyS6/Gemini-Generated-Image-n2pyhxn2pyhxn2py2.png" alt="Camisa negra otoño">
+                        <img src="https://i.postimg.cc/65b2fyS6/Gemini-Generated-Image-n2pyhxn2pyhxn2py2.png" alt="Camisa negra otoño" style="border-radius: 10px;">
                         <div>
                         <h3>Camisa negra otoño</h3>
                         <p>Camisa cómoda y elegante para el otoño</p>
@@ -87,16 +77,12 @@
                         </div>
                     </li>
                     <li>
-                        <img src="https://i.postimg.cc/28k9BKph/Gemini-Generated-Image-wqq71wqq71wqq71w.png" alt="Pantalón jeans recto">
-                        <div>
-                        <h3>Pantalón jeans recto</h3>
-                        <p>Pantalón cómodo y resistente, perfecto para el otoño</p>
-                        <p><strong>$60</strong></p>
-                        <button>Agregar al carrito</button>
-                        </div>
+
                     </li>
+                </div>
+                <div style="display: flex; gap: 30px; margin-top: 50px;">
                     <li>
-                        <img src="https://i.postimg.cc/44DtDKPH/Gemini-Generated-Image-l4rft8l4rft8l4rf.png" alt="Chaqueta Denim">
+                        <img src="https://i.postimg.cc/44DtDKPH/Gemini-Generated-Image-l4rft8l4rft8l4rf.png" alt="Chaqueta Denim" style="border-radius: 10px;">
                         <div>
                         <h3>Chaqueta de cuero</h3>
                         <p>Chaqueta elegante y resistente, perfecta para el otoño</p>
@@ -105,7 +91,7 @@
                         </div>
                     </li>
                     <li>
-                        <img src="https://i.postimg.cc/tCbYCxMB/Gemini-Generated-Image-39fnee39fnee39fn.png" alt="Pantalón cargo">
+                        <img src="https://i.postimg.cc/tCbYCxMB/Gemini-Generated-Image-39fnee39fnee39fn.png" alt="Pantalón cargo" style="border-radius: 10px;">
                         <div>
                         <h3>Pantalón cargo</h3>
                         <p>Pantalón elegante y práctico para complementar tu look</p>
@@ -113,6 +99,44 @@
                         <button>Agregar al carrito</button>
                         </div>
                     </li>
+                </div>
+            </ul>
+            <h2 style="font-size: 30px; text-align: center;"> Hombre</h2>
+                <ul style="list-style: none;"><!--Lista de productos-->
+                    <div style="display: flex; gap: 30px; margin-top: 50px;">
+                        <li>
+                            <img src="https://i.postimg.cc/0NdBLR75/Gemini-Generated-Image-i43m1vi43m1vi43m.png" alt="Sueter rayado" style="border-radius: 10px;">
+                            <div>
+                            <h3>Sueter rayado</h3>
+                            <p>Sueter cómodo y cálido, ideal para el otoño</p>
+                            <p><strong>$80</strong></p>
+                            <button>Agregar al carrito</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.postimg.cc/PJ37qWqp/Gemini-Generated-Image-4r4enm4r4enm4r4e.png" alt="Hoddy gris" style="border-radius: 10px;">
+                            <div>
+                            <h3>Hoddy gris</h3>
+                            <p>Hoddy cómodo y moderno para tus actividades diarias</p>
+                            <p><strong>$70</strong></p>
+                            <button>Agregar al carrito</button>
+                            </div>
+                        </li>
+                    </div>
+                    <div style="display: flex; gap: 30px; margin-top: 50px;">
+                        <li>
+                            
+                        </li>
+                        <li>
+                            <img src="https://i.postimg.cc/28k9BKph/Gemini-Generated-Image-wqq71wqq71wqq71w.png" alt="Pantalón jeans recto" style="border-radius: 10px;">
+                            <div>
+                            <h3>Pantalón jeans recto</h3>
+                            <p>Pantalón cómodo y resistente, perfecto para el otoño</p>
+                            <p><strong>$60</strong></p>
+                            <button>Agregar al carrito</button>
+                            </div>
+                            </li>
+                    </div>
                 </ul>
         </section>
     </main>
