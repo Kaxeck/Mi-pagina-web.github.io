@@ -5,21 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de ropa</title>
 </head>
-<body>
-    <header><!--Etiqueta semantica de cabecera-->
-        <div><!--Logo de la tienda-->
-            <a href="/">[Logo de la tienda]</a><!--Logo de la tienda-->
+<body style="background-color: #F2E8D5; margin: 0;">
+    <!--Margin 0 elimina los margenes predeterminados del navegador-->
+    <!--Background-color establece el color de fondo de la pagina-->
+    <header style="background-color: #A52810; overflow: hidden;"><!--Etiqueta semantica de cabecera-->
+        <!--Overflow hidden permite que el contenido flotante se contenga dentro de un contenedor-->
+        <div style="float: left;"><!--Logo de la tienda-->
+            <!--Float permite que los elementos se alineen horizontalmente de izquierda a derecha-->
+            <a href="/"><img src="https://i.postimg.cc/9QJ65Vfd/Logo-SF.png" alt="Logo de la tienda" width="70"></a><!--Logo de la tienda-->
         </div>
-        <nav><!--Barra de navegacion-->
-            <ul><!--Lista de categorias-->
-                <li> <a href="">Mujer</a> </li>
-                <li> <a href="">Hombre</a> </li>
-                <li> <a href="">Ofertas</a> </li>
+        <nav style="float: left;"><!--Barra de navegacion-->
+            <ul style="list-style: none; display: flex; font-family: Arial, sans-serif; gap: 30px;"><!--Lista de categorias-->
+                <!--Float permite que los elementos se alineen horizontalmente de izquierda a derecha-->
+                <!--List-style none elimina los puntos de la lista-->
+                <!--Gap 30px agrega un espacio entre los elementos de la lista-->
+                <li> <a href="" style="text-decoration: none; color: #F2E8D5"><Strong>Mujer</Strong></a> </li>
+                <li> <a href="" style="text-decoration: none; color: #F2E8D5"><strong>Hombre</strong></a> </li>
+                <li> <a href="#promociones" style="text-decoration: none; color: #F2E8D5"><strong>Ofertas</strong></a> </li>
             </ul>
         </nav>
-        <div><!--Iconos de busqueda y carrito-->
-            <a href="">[Icono de busqueda]</a> 
-            <a href="">[Icono de carrito]</a> 
+        <div style="float: right;"><!--Iconos de busqueda y carrito-->
+            <!--Float permite que los elementos se alineen horizontalmente de derecha a izquierda-->
+            <a href=""><img src="https://i.postimg.cc/ZqD0q1wH/Busqueda.png" alt="Icono de busqueda" width="50"></a> 
+            <a href=""><img src="https://i.postimg.cc/GmgsB82f/Carrito-SF.png" alt="Icono de carrito" width="50"></a> 
         </div>
     </header>
 
@@ -27,17 +35,17 @@
         <Section><!--Seccion principal de la pagina-->
             <h1>Nueva Colección otoño 2025</h1>
             <p>Descubre las últimas tendencias en moda para este otoño. Ropa fresca, colores vibrantes y estilos únicos que te encantarán</p>
-            <img src="https://i.postimg.cc/yx7d8q8f/Gemini-Generated-Image-ylgoncylgoncylgo.png" alt="Imagen de la nueva colección otoño 2025">
+            <img src="https://i.postimg.cc/yx7d8q8f/Gemini-Generated-Image-ylgoncylgoncylgo.png" alt="Imagen de la nueva colección otoño 2025" width="1200">
         </Section>
 
-        <section><!--Seccion de promociones-->
+        <section id="promociones"><!--Seccion de promociones-->
             <h2>Promociones</h2>
             <ul><!--Lista de promociones-->
                 <li> <!--Promoción 50% de descuento en la segunda prenda-->
-                    <img src="https://i.ibb.co/kgBQHPdt/Gemini-Generated-Image-soqtypsoqtypsoqt.png" alt="Promoción 50% de descuento en la segunda prenda">
+                    <img src="https://i.ibb.co/kgBQHPdt/Gemini-Generated-Image-soqtypsoqtypsoqt.png" alt="Promoción 50% de descuento en la segunda prenda" width="600">
                 </li>
                 <li><!--Promoción 2x1 en prendas seleccionadas-->
-                    <img src="https://i.ibb.co/kjWNCsQ/Gemini-Generated-Image-u9g19su9g19su9g1.png" alt="Promocion 2x1 en prendas seleccionadas">
+                    <img src="https://i.ibb.co/kjWNCsQ/Gemini-Generated-Image-u9g19su9g19su9g1.png" alt="Promocion 2x1 en prendas seleccionadas" width="600">
                 </li>
             </ul>
         </section>
@@ -45,7 +53,7 @@
         <section><!--Seccion de presentacion temporada otoño 2025-->
             <h2>Temporada Otoño 2025</h2>
             <p>Prepárate para el frío con nuestra colección de otoño. Abrigos, suéteres y accesorios que te mantendrán cálido y a la moda</p>
-            <img src="https://i.postimg.cc/pXhKmfGb/Gemini-Generated-Image-gyegfagyegfagyeg.png" alt="Imagen de la colección otoño 2025">
+            <img src="https://i.postimg.cc/pXhKmfGb/Gemini-Generated-Image-gyegfagyegfagyeg.png" alt="Imagen de la colección otoño 2025" width="1200">
         </section>
 
         <section><!--Seccion del catalogo de productos-->
@@ -59,7 +67,7 @@
                         <p><strong>$80</strong></p>
                         <button>Agregar al carrito</button>
                         </div>
-                    </li>
+                    </img>
                     <li>
                         <img src="https://i.postimg.cc/PJ37qWqp/Gemini-Generated-Image-4r4enm4r4enm4r4e.png" alt="Hoddy gris">
                         <div>
