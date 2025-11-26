@@ -12,7 +12,7 @@
         <!--Overflow hidden permite que el contenido flotante se contenga dentro de un contenedor-->
         <div style="float: left;"><!--Logo de la tienda-->
             <!--Float permite que los elementos se alineen horizontalmente de izquierda a derecha-->
-            <a href=""><img src="https://i.postimg.cc/9QJ65Vfd/Logo-SF.png" alt="Logo de la tienda" width="70"></a><!--Logo de la tienda-->
+            <a href="/"><img src="https://i.postimg.cc/9QJ65Vfd/Logo-SF.png" alt="Logo de la tienda" width="70"></a><!--Logo de la tienda-->
         </div>
         <nav style="float: left;"><!--Barra de navegacion-->
             <ul style="list-style: none; display: flex; font-family: Arial, sans-serif; gap: 30px;"><!--Lista de categorias-->
@@ -20,15 +20,15 @@
                 <!--List-style none elimina los puntos de la lista-->
                 <!--Font family establece la fuente de los elementos de la lista-->
                 <!--Gap 30px agrega un espacio entre los elementos de la lista-->
-                <li> <a href="" style="text-decoration: none; color: #F2E8D5"><Strong>Mujer</Strong></a> </li>
-                <li> <a href="" style="text-decoration: none; color: #F2E8D5"><strong>Hombre</strong></a> </li>
+                <li> <a href="#mujer" style="text-decoration: none; color: #F2E8D5"><Strong>Mujer</Strong></a> </li>
+                <li> <a href="#hombre" style="text-decoration: none; color: #F2E8D5"><strong>Hombre</strong></a> </li>
                 <li> <a href="#promociones" style="text-decoration: none; color: #F2E8D5"><strong>Ofertas</strong></a> </li>
             </ul>
         </nav>
         <div style="float: right;"><!--Iconos de busqueda y carrito-->
             <!--Float permite que los elementos se alineen horizontalmente de derecha a izquierda-->
-            <a href=""><img src="https://i.postimg.cc/ZqD0q1wH/Busqueda.png" alt="Icono de busqueda" width="50"></a> 
-            <a href=""><img src="https://i.postimg.cc/GmgsB82f/Carrito-SF.png" alt="Icono de carrito" width="50"></a> 
+            <a href="/"><img src="https://i.postimg.cc/ZqD0q1wH/Busqueda.png" alt="Icono de busqueda" width="50"></a> 
+            <a href="#catalogo"><img src="https://i.postimg.cc/GmgsB82f/Carrito-SF.png" alt="Icono de carrito" width="50"></a> 
         </div>
     </header>
 
@@ -62,8 +62,8 @@
         </section>
 
         <section style="margin-bottom: 100px;"><!--Seccion del catalogo de productos-->
-            <h2 style="font-size: 40px;">Catalogo</h2>
-            <h2 style="font-size: 30px; text-align: center; margin-top: 50px;">Mujer</h2>
+            <h2 id="catalogo" style="font-size: 40px;">Catalogo</h2>
+            <h2 id="mujer" style="font-size: 30px; text-align: center; margin-top: 50px;">Mujer</h2>
             <ul style="list-style: none;">
                 <div style="display: flex; gap: 30px; margin-top: 50px;">
                     <!--Margin top 50px agrega un espacio arriba del contenedor-->
@@ -108,7 +108,7 @@
                     </li>
                 </div>
             </ul>
-            <h2 style="font-size: 30px; text-align: center; margin-top: 100px;"> Hombre</h2>
+            <h2 id="hombre" style="font-size: 30px; text-align: center; margin-top: 100px;"> Hombre</h2>
                 <ul style="list-style: none;"><!--Lista de productos-->
                     <div style="display: flex; gap: 30px; margin-top: 50px;">
                         <li>
@@ -154,18 +154,18 @@
         </section>
     </main>
 
-    <footer style=" font-family: Arial, sans-serif; background-color: #57170A"><!--Pie de pagina-->
+    <footer style=" font-family: Arial, sans-serif; background-color: #57170A;"><!--Pie de pagina-->
         <div style="display: flex; gap: 500px;"><!--Contenedor de secciones-->
         <section><!--Seccion de contacto-->
             <h3 style="color: #F2E8D5">Contactanos</h3>
             <ul style="list-style: none;"><!--Redes sociales-->
                 <div style="display: flex; gap: 10px;">
-                    <li><a href=""> <img src="https://i.postimg.cc/8zJ4g19g/Logo-Tiktok-SF.png" alt="Icono TikTok" width="50px"></a></li>
-                    <li><a href=""> <img src="https://i.postimg.cc/C5JdgLxC/Logo-Facebook-SF.png" alt="Icono Facebook" width="50px"></a></li>
+                    <li><a href="https://www.tiktok.com/@calvinklein?lang=es" target="_blank"> <img src="https://i.postimg.cc/8zJ4g19g/Logo-Tiktok-SF.png" alt="Icono TikTok" width="50px"></a></li>
+                    <li><a href="https://www.facebook.com/mexicohm" target="_blank"> <img src="https://i.postimg.cc/C5JdgLxC/Logo-Facebook-SF.png" alt="Icono Facebook" width="50px"></a></li>
                 </div>
                 <div style="display: flex; gap: 10px;">
-                    <li><a href=""> <img src="https://i.postimg.cc/JhW8pCRp/Logo-Instagram-SF.png" alt="Icono Instagram" width="50px"></a></li>
-                    <li><a href=""> <img src="https://i.postimg.cc/PxXjkbpy/Logo-X-SF.png" alt="Icono X" width="50px"></a></li>
+                    <li><a href="https://www.instagram.com/hm/" target="_blank"> <img src="https://i.postimg.cc/JhW8pCRp/Logo-Instagram-SF.png" alt="Icono Instagram" width="50px"></a></li>
+                    <li><a href="https://x.com/CalvinKlein" target="_blank"> <img src="https://i.postimg.cc/PxXjkbpy/Logo-X-SF.png" alt="Icono X" width="50px"></a></li>
                 </div>
             </ul>
             <p style="color: #F2E8D5">Visitanos en nuestra sucursal ...</p>
@@ -182,9 +182,9 @@
         <section>
             <h3 style="color: #F2E8D5">Información</h3>
             <ul style="list-style: none; display: flex; gap: 100px;"><!--Enlaces de información-->
-                <li><a href="" style="color: #F2E8D5">Términos y condiciones</a></li>
-                <li><a href="" style="color: #F2E8D5">Política de privacidad</a></li>
-                <li><a href="https://i.postimg.cc/8zJ4g19g/Logo-Tiktok-SF.png" style="color: #F2E8D5">Preguntas frecuentes</a></li>
+                <li><a href="https://www.google.com/" target="_blank" style="color: #F2E8D5">Términos y condiciones</a></li>
+                <li><a href="https://www.google.com/" target="_blank" style="color: #F2E8D5">Política de privacidad</a></li>
+                <li><a href="https://www.google.com/" target="_blank" style="color: #F2E8D5">Preguntas frecuentes</a></li>
             </ul>
         </section>
         <p style="color: #F2E8D5">2025 Tienda de ropa. Todos los derechos reservados</p>
