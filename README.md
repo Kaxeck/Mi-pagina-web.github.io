@@ -15,7 +15,8 @@ CSS
 Git / GitHub
 
 GitHub Pages
-🌐 Página en GitHub Pages
+
+## 🌐 Página en GitHub Pages
 
 Liga pública del proyecto:
 👉 https://kaxeck.github.io/Mi-pagina-web.github.io/
